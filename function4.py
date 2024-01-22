@@ -1,0 +1,15 @@
+#program for find prime or not using type 2 function(with args and without return)
+def prime(num):
+    flag=False
+    if isinstance(num,int) and num>1:
+        for i in range(2,num):
+            if num%i==0:
+                flag=True
+                break
+        if flag:
+            print('not a prime number')
+        else:
+            print('prime number')
+    else:
+        print('invalid argument')
+prime(5)

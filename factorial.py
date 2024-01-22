@@ -1,3 +1,4 @@
+#program for to find factorial of number
 num=int(input('enter a number:-'))
 fact=1
 i=1
