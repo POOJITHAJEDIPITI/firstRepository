@@ -17,7 +17,11 @@ class mtca:
     def  upd_email(self,email2):
           self.emailaddress=email2
           print('email address is updated')
+    @classmethod #used to pass the address if we take cls or object it will pass address to class only so it reflects to all taken objects
+    def change_principal(cls,new):
+          cls.principal=new
 poojitha=mtca('poojitha','93987654','poojitha@gmail.com','1')
+
 
 
 
